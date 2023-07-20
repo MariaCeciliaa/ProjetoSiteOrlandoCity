@@ -98,9 +98,9 @@ header #logotipo {
 	top: 20px;
 }
 #menu {
-	margin: 26px 0px;
-    position: absolute;
-    right: -1000px;
+	margin: 26px 0;
+	position: relative;
+	right: -60rem;
 }
 #menu li {
 	display: inline-block;
@@ -148,7 +148,7 @@ header #logotipo {
 	position: relative;
 	top: 300px;
 	font-size: 92px;
-	margin-left: 2rem;
+	margin-left: 3rem;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
 	font-family: 'Open Sans', sans-serif;
 }
@@ -157,4 +157,33 @@ header #logotipo {
 	display: block;
 	margin-left: 0.5rem;
 }
+#news h2 {
+	color: #5e2799;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+	border: #FDE192 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+#news .thumb {
+	margin-top: 40px;
+}
+#news .thumb h3 {
+	color: #5e2799;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+#news .thumb time {
+	color: #A7A7A7;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
 
