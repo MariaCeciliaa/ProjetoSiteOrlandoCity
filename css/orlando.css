@@ -110,3 +110,22 @@ header #logotipo {
 	padding: 10px 25px;
 	font-weight: bold;
 }
+#menu li.search {
+	width: 182px;
+}
+#menu li.search button {
+	background: none;
+	border: none;
+	font-size: 14px;
+	color: rgba(225, 225, 225, 0.5);
+}
+#menu li.search input {
+	background-color: #5C2D90;
+	color: #FFF;
+	border: none;
+	height: 30px;
+	line-height: 33px;
+}
+#menu li.search ::-webkit-input-placeholder{
+	color: #FFF;
+}
