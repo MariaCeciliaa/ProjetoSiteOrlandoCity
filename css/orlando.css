@@ -118,6 +118,8 @@ header #logotipo {
 	border: none;
 	font-size: 14px;
 	color: rgba(225, 225, 225, 0.5);
+	position: relative;
+	top: 7px;
 }
 #menu li.search input {
 	background-color: #5C2D90;
