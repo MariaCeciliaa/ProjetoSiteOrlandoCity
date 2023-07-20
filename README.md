@@ -1,6 +1,6 @@
 # ProjetoSiteOrlandoCity
 
-Este é um projeto realizado a partir do Curso Completo de Desenvolvedor Web na Udemy, ministrado pela HCODE.
+Este é um projeto realizado a partir do Curso Completo de Desenvolvedor Web da Udemy, ministrado pela HCODE.
 
 ## Tecnologias usadas:
 
