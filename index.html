@@ -54,7 +54,7 @@
                             <li><a href="#">Schedule</a></li>
                             <li class="search">
                                 <div class="input-group">
-                                    <input type="search" placeholder="search...">
+                                    <input type="search" placeholder="search..." id="input-search">
                                     <!-- <span class="input-group-btn">
                                         <button class="" type="button">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 30" fill="none" stroke="currentColor" 
@@ -274,12 +274,28 @@
             $(document).ready(function () {
 
                 $("#logotipo").on("mouseover", function(){
-                    console.log("Passou o mouse no logotipo");
+
+                    //essas expressoes mudam o css do elemento de acordo com algum evento no site
+                    //$("#banner h1").css("color", "red");  
+                    // OU
+                    // $("#banner h1").css({"color": "purple", 
+                    //                     "text-shadow": "10px 10px 10px rgba(9, 0, 0, .45);", 
+                    //                     "transition": "1s", 
+                    //                     "font-size": "12em"});
+
+                    //por fim utilizando desta ultima maneira cria uma classe no css p fazer o efeito q será passado
+                    
+                    $("#banner h1").addClass("efeito");
+
+                }).on("mouseout", function () {
+
+                    $("#banner h1").removeClass("efeito");
+
                 });
 
             });
 
         </script>
-        
+
     </body>
 </html>
