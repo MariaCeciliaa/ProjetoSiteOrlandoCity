@@ -7,4 +7,5 @@ Este é um projeto realizado a partir do Curso Completo de Desenvolvedor Web da 
 - HTML 5
 - CSS 3
 - Bootstrap
+- PHP
 
