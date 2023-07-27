@@ -8,4 +8,5 @@ Este é um projeto realizado a partir do Curso Completo de Desenvolvedor Web da 
 - CSS 3
 - Bootstrap
 - PHP
+- Slim
 
